@@ -59,7 +59,7 @@ void DFS(string first, int index, vector<vector<string>> &tickets){
 vector<string> solution(vector<vector<string>> tickets) {
     int n = tickets.size();
     check.assign(n, vector<int>(n, 0));
-    visit.assing(n, 0);
+    visit.assign(n, 0);
     temp = "ZZZ";
     //cout << n;
     for(int i = 0; i<tickets.size(); i++){
